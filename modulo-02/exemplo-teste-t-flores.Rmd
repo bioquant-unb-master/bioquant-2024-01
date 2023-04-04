@@ -1,0 +1,66 @@
+---
+title: "Exemplo do teste de T"
+output: html_notebook
+---
+Em um experimento para medir o sucesso da polinização por abelhas em uma espécie de
+Byrsonima crassifolia o pesquisador marcou botões florais em várias árvores. Em cada árvore ele
+ensacou alguns botões com redes, impedindo que os polinizadores consigam chegar até a flor e em
+outros apenas marcou, mas deixou sem nenhuma proteção. Segue abaixo os dados coletados pelo
+pesquisador.
+ 
+
+```{r}
+crede<- c(5,6,7,3,4,2,7,8,5,4)
+sem_rede<- c(6,13,8,11,5,12,10,8,4,8)
+
+```
+
+Agora vamos testar se os dados são normais:
+```{r}
+shapiro.test(rede)
+shapiro.test(sem_rede)
+```
+
+Consideramos que não há como rejeitar a hipótese nula de que os dados pertencem a uma distribuição normal. 
+Conclusão: aceitamos a hipótese de que os dados vem de uma distribuição normal
+
+Agora vamos testar a homogeneidade das variâncias
+
+```{r}
+var.test(rede,sem_rede)
+```
+
+Embora haja um valor de significância de 0,19 ou seja 19%, por convenção só aceitamos que a diferença seja significativa no caso da probabilidade de pertencerem à mesma distribuição (hipótese nula) for inferior a 5%. Então podemos aceitar a hipótese nula e aceitar que as variâncias sejam homogêneas, embora haja um valor de p se aproximando de significância
+
+Aceitamos as premissas do teste de t de que as amostras com rede e sem rede tem distribuição normal e variâncias homogêneas
+
+Agora vamos testar o principal:  há diferenças nas taxas de frutificação entre as plantas onde cobrimos as flores com rede e as que não cobrimos com rede?  Lembre se que desejamos saber se a visitação por abelhas é importante para a polinização. Nas plantas com rede as abelhas não conseguiram chegar nas flores.
+
+Primeiro vamos fazer um boxplot para ver se os dados visualmente sugerem haver diferença nos dois tratamentos
+
+
+
+```{r}
+summary(rede)
+summary(sem_rede)
+
+boxplot(rede)
+boxplot(sem_rede)
+
+boxplot(rede,sem_rede, main= "Numero de Frutos em Flores Com ou Sem Rede", names = c("Com Rede", "Sem Rede"))
+
+```
+
+Os dados visuais sugerem que há diferença, com as plantas sem redes tendo maior produtividade de frutos, justamente nas situações onde as abelhas tiveram acesso livre às flores.
+
+Vamos ver se os dados são estatísticamente significativos
+
+```{r}
+t.test(rede,sem_rede, var.equal = TRUE)
+```
+
+Ou seja a probabilidade que estas duas amostras venham da mesma distribuição é 0,007 ou 0,7%. Então rejeitamos a hipótese nula H0 de que as amostras pertencem à mesma distribuição. Aceitamos a hipótese alternativa H1 de que as amostras pertencem a distribuições diferentes, e portanto há diferença significativa ao nível de 0,7% entre as amostras.
+
+
+
+
