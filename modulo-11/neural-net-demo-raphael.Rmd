@@ -1,0 +1,239 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+Neural Net Package Examples
+Raphael Cobe
+published on rpubs: https://rpubs.com/rocknroll/datasp17-nn
+
+12/13/2017
+
+```{r}
+library("neuralnet")
+```
+
+Going to create a neural network to perform square rooting Type ?neuralnet for more information on the neuralnet library
+
+Generate 50 random numbers uniformly distributed between 0 and 100 And store them as a dataframe
+
+```{r}
+traininginput <-  as.data.frame(runif(50, min=0, max=100))
+trainingoutput <- sqrt(traininginput)
+```
+
+Column bind the data into one variable
+
+```{r}
+trainingdata <- cbind(traininginput,trainingoutput)
+colnames(trainingdata) <- c("Input","Output")
+```
+
+Train the neural network Going to have 10 hidden layers Threshold is a numeric value specifying the threshold for the partial derivatives of the error function as stopping criteria.
+
+```{r}
+net.sqrt <- neuralnet(Output~Input,trainingdata, hidden=10, threshold=0.01)
+print(net.sqrt)
+```
+
+Plot the neural network
+
+```{r}
+plot(net.sqrt, rep = "best")
+```
+
+Test the neural network on some training data
+
+```{r}
+testdata <- as.data.frame((1:10)^2) #Generate some squared numbers
+net.results <- compute(net.sqrt, testdata) #Run them through the neural network
+```
+
+Lets see what properties net.sqrt has
+
+```{r}
+ls(net.results)
+```
+
+Lets see the results
+
+```{r}
+print(net.results$net.result)
+```
+
+Lets display a better version of the results
+
+
+```{r}
+cleanoutput <- cbind(testdata,sqrt(testdata),
+                     as.data.frame(net.results$net.result))
+colnames(cleanoutput) <- c("Input","Expected Output","Neural Net Output")
+print(cleanoutput)
+```
+
+sin function
+Generate random data and the dependent variable
+
+```{r}
+x <- sort(runif(50, min = 0, max = 4*pi))
+y <- sin(x)
+
+data <- cbind(x,y)
+```
+
+
+Create the neural network responsible for the sin function
+
+```{r}
+library(neuralnet)
+sin.nn <- neuralnet(y ~ x, data = data, hidden = 5, stepmax = 100000, learningrate = 10e-6,  
+                    act.fct = 'logistic', err.fct = 'sse', rep = 5, lifesign = "minimal", 
+                    linear.output = T)
+```
+
+
+Visualize the neural network
+
+```{r}
+plot(sin.nn, rep = "best")
+```
+
+
+Generate data for the prediction of the using the neural net;
+
+```{r}
+testdata<- as.data.frame(runif(10, min=0, max=(4*pi)))
+testdata
+```
+
+
+Calculate the real value using the sin function
+
+```{r}
+testdata.result <- sin(testdata)
+```
+
+
+Make the prediction
+
+```{r}
+sin.nn.result <- compute(sin.nn, testdata)
+sin.nn.result$net.result
+```
+
+
+Compare with the real values:
+
+```{r}
+better <- cbind(testdata, sin.nn.result$net.result, testdata.result, (sin.nn.result$net.result-testdata.result))
+colnames(better) <- c("Input", "NN Result", "Result", "Error")
+
+better
+```
+
+
+Calculate the RMSE:
+
+```{r}
+library(Metrics)
+rmse(better$Result, better$`NN Result`)
+```
+
+Plot the results:
+
+```{r}
+plot(x,y)
+plot(sin, 0, (4*pi), add=T)
+x1 <- seq(0, 4*pi, by=0.1)
+lines(x1, compute(sin.nn, data.frame(x=x1))$net.result, col="green")
+```
+
+
+A classification problem
+Using the iris dataset
+
+```{r}
+data(iris)
+iris.dataset <- iris
+```
+
+Check what is inside the dataset:
+
+```{r}
+head(iris.dataset)
+```
+
+
+Change the dataset so we are able to predict classes:
+
+```{r}
+iris.dataset$setosa <- iris.dataset$Species=="setosa"
+iris.dataset$virginica = iris.dataset$Species == "virginica"
+iris.dataset$versicolor = iris.dataset$Species == "versicolor"
+```
+
+Separate into train and test data:
+
+```{r}
+train <- sample(x = nrow(iris.dataset), size = nrow(iris)*0.5)
+train
+```
+
+```{r}
+iristrain <- iris.dataset[train,]
+irisvalid <- iris.dataset[-train,]
+print(nrow(iristrain))
+```
+
+```{r}
+print(nrow(irisvalid))
+```
+
+Build the Neural Network for the classification:
+
+```{r}
+nn <- neuralnet(setosa+versicolor+virginica ~ Sepal.Length + Sepal.Width, data=iristrain, hidden=3,  
+                rep = 1, err.fct = "ce", linear.output = F, lifesign = "minimal", stepmax = 1000000)
+```
+
+Let’s check the neural network that we just built
+
+```{r}
+plot(nn, rep="best")
+```
+
+Let’s try to make the prediction:
+
+```{r}
+comp <- compute(nn, irisvalid[-3:-8])
+pred.weights <- comp$net.result
+idx <- apply(pred.weights, 1, which.max)
+pred <- c('setosa', 'versicolor', 'virginica')[idx]
+table(pred, irisvalid$Species)
+```
+
+AND operation
+```{r}
+AND <- c(rep(0,3),1)
+OR <- c(0,rep(1,3))
+binary.data <- data.frame(expand.grid(c(0,1), c(0,1)), AND)
+print(net <- neuralnet(AND~Var1+Var2, binary.data, hidden=0, rep=10, err.fct="ce", linear.output=FALSE))
+```
+
+Now to validate the predictions:
+
+```{r}
+input <- data.frame(expand.grid(c(0,1), c(0,1)))
+net.results <- compute(net, input)
+cbind(round(net.results$net.result), AND)
+```
+
+
+
+
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.

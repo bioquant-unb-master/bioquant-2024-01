@@ -1,0 +1,52 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+Iris - Neural Network Demo
+Vitor, Milton
+December 13, 2017
+published in: https://rpubs.com/vitorhs/iris
+
+Loading Package and treating the data
+
+```{r}
+data(iris)
+iris$setosa <- iris$Species=="setosa"
+iris$virginica <- iris$Species == "virginica"
+iris$versicolor <- iris$Species == "versicolor"
+iris.train.idx <- sample(x = nrow(iris), size = nrow(iris)*0.5)
+iris.train <- iris[iris.train.idx,]
+iris.valid <- iris[-iris.train.idx,]
+```
+
+Network Aplication
+
+```{r}
+library(neuralnet)
+iris.net <- neuralnet(setosa+versicolor+virginica ~ 
+                      Sepal.Length + Sepal.Width + Petal.Length + Petal.Width, 
+                      data=iris.train, hidden=c(10,10), rep = 5, err.fct = "ce", 
+                      linear.output = F, lifesign = "minimal", stepmax = 1000000,
+                      threshold = 0.001)
+```
+
+
+```{r}
+plot(iris.net, rep="best")
+
+```
+
+Predicting Result
+
+```{r}
+iris.prediction <- compute(iris.net, iris.valid[-5:-8])
+idx <- apply(iris.prediction$net.result, 1, which.max)
+predicted <- c('setosa', 'versicolor', 'virginica')[idx]
+table(predicted, iris.valid$Species)
+```
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
