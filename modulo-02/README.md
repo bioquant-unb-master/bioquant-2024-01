@@ -1,1 +1,1 @@
-Módulo 02 comparação de amostras. Planilha de dados com morfometria de 8 espécies de aves do gênero Elaenia, medidas por Roberto Cavalcanti no American Museum of Natural History em 1985
+Módulo 02 bases de dados em biologia, como importar dados para o R
