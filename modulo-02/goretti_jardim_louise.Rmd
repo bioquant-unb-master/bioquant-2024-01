@@ -1,0 +1,61 @@
+---
+title: "Visualização de dados de temperatura e umidade relativa do Jardim Louise Ribeiro"
+author: "Arthur Goretti"
+date: "2024-03-28"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Começo carregando o Tidyverse.
+```{r}
+library(tidyverse)
+```
+Em seguida, usei o Excel para exportar a planilha em CSV, para maior comodidade. Uso então a função "read_csv2", do readr, para importar os dados e salvá-los no objeto "louise".
+```{r}
+louise <- 
+read_csv2("jardim-louise-28fev2024-for-r.csv",
+         col_types="fcdd")
+```
+O parâmetro "col_types" especifica em que categorias eu quero formatar os dados. Na string que eu escrevi, uso f para factor, c para character, e d para double.
+
+Uso então a função "ymd_hms", do lubridate para adaptar as strings ao formato lubridate, do tidyverse. E uso a função "mutate" para alterar a tabela.
+```{r}
+louise <- 
+louise |> 
+  mutate(date=ymd_hms(date,
+                      tz="America/Sao_Paulo"))
+```
+Uso a função "hour" para extrair a hora.
+```{r}
+louise <- 
+  louise |> 
+  mutate(hora=as_factor(hour(date)))
+```
+Uso então o ggplot2 para criar um boxplot de umidade por hora do dia. Importante notar: uso a função "scale_y_continuous", e o parâmetro "breaks" para definir as marcas da escala do eixo y.
+```{r}
+louise |> 
+  ggplot(aes(hora, humidpc))+
+  geom_boxplot()+
+  scale_y_continuous(breaks=c(seq(min(louise$humidpc),
+                                  max(louise$humidpc),
+                                  20),
+                              max(louise$humidpc)))+
+  theme_classic()+
+  labs(x="Horário (h)",
+       y="Umidade relativa (%)")
+```
+Por fim, faço o mesmo com a temperatura.
+```{r}
+louise |> 
+  ggplot(aes(hora, tempc))+
+  geom_boxplot()+
+  scale_y_continuous(breaks=c(seq(min(louise$tempc),
+                                  max(louise$tempc),
+                                  5),
+                              max(louise$tempc)))+
+  theme_classic()+
+  labs(x="Horário (h)",
+       y="Temperatura (°C)")
+```
+Por fim, uso o as funções do knitr, integrada ao Rstudio, para exportar o pdf.
