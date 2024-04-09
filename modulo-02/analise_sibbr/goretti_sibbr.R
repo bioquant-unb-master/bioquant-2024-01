@@ -23,6 +23,7 @@ dados |>
   write_csv2("C:/R_central/bioquant-2024-01/modulo-02/analise_sibbr/banco_dados.csv")
 
 pequi |> 
+  filter(year>=2000) |> 
   count(Institution) |> 
   arrange(desc(n)) |>
   filter(!is.na(Institution)) |> 
@@ -36,9 +37,9 @@ pequi |>
                                  vjust=0,
                                  size=6))+
   scale_y_continuous(breaks=c(seq(0,
-                                  119,
-                                  30),
-                              119))+
+                                  42,
+                                  5),
+                              42))+
   labs(x="Instituição",
        y="Registros")
 
