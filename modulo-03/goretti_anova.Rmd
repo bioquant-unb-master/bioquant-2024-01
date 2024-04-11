@@ -1,0 +1,224 @@
+---
+title: "Exemplos de Anova"
+author: "Arthur Goretti"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: vignette
+---
+
+Topicos em Zoologia 2 - 2/2018
+
+# Analise de variancia - ANOVA
+
+Utilizamos esta analise para saber se existe diferencia entre fatores 
+Saber se a diferencia das medias sao reais ou casuais.
+Observamos a variancia dentro dos grupos para saber se existe diferencia
+entre os grupos
+
+## Valor de F
+F = (Variabilidade do fator/V. resudual)/V. residual
+F = 1: As medias sao similares
+F > 1: As medias sao diferentes
+
+H0 = As populacoes estudadas sao iguais (m1 = m2 = m3 = m4)
+H1 = As populacoes estudadas sao diferentes
+
+## Premissas
+1. Interdependencia das amostras
+2. Homocedasticidade (Variancias comparaveis ou variancias iguais)
+3. Distribuicao normal (Teste parametrico)
+
+# One way ANOVA ----
+Neste anova iremos comparar um unico fator. 
+Temos mais de duas amostras e queremos saber se existe diferencia real 
+entre as medias. 
+
+```{r tidyverse, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(tidyverse)
+```
+
+
+Ex 1. Contamos a quantidade de frutos em 4 individuos de de cinco
+especies de lenhosas do Cerrado.
+
+```{r}
+dfrutos <- 
+  tibble(jatoba = c(17, 11, 16, 12),
+         cagaita = c(13, 18, 16, 17),
+         copaiba = c(16, 16, 19, 21),
+         araticum = c(15, 12, 15, 14),
+         baru = c(17, 11, 16, 12)) |> 
+  pivot_longer(1:5,
+               names_to="sp",
+               values_to="frutos") |> 
+  arrange(sp) |> 
+  mutate(sp=as_factor(sp))
+dfrutos
+```
+
+Existe diferencia real entre as medias das amostras? (p = 0.05)
+Criaremos uma tabela para fazer a analise
+Variaveis dependentes que sejam continuos e variaveis
+Variaveis independentes que sejam classes ou fatores
+
+Visualizando nossos dados:
+```{r}
+dfrutos |> 
+  ggplot(aes(sp, frutos))+
+  geom_point()+
+  theme_classic()
+```
+
+## Premissas
+### 1. Normalidade
+```{r}
+gfrutos <- 
+  dfrutos |> 
+  group_by(sp) |> 
+  group_split()
+names(gfrutos) <- levels(dfrutos$sp)
+```
+
+```{r}
+gfrutos |> 
+  map("frutos") |> 
+  map(~shapiro.test(.))
+```
+
+### 2. Homocedasticidade
+Usaremos o test de levene que calcula a homocedasticidade
+H0 = variancia entre os grupos igual
+levene.test(y = vetor numerico, group = fator dos dados)
+```{r}
+library(lawstat)
+levene.test(dfrutos$frutos, group = dfrutos$sp)
+```
+
+### 3. Independencia das amostras
+Contamos frutos de cada arvore, entao temos certeza que sao independentes!
+
+## Finalmente a ANOVA one way!
+aov(formula = y variando em relacao a X, data = tabela)
+```{r}
+resultado <- aov(frutos ~ sp, data = dfrutos)
+summary(resultado)
+```
+
+### Como interpretar? Olhar o valor de F e confirmar com o valor de p
+
+# Two way ANOVA ----
+Neste caso, temos dois fatores
+Queremos saber se a producao de frutos difere entre as especies e 
+dentro de replicas em cerrados sensu stricto.
+
+```{r}
+dfrutos2 <- 
+  tibble(tingui = c(16, 13, 19, 9, 15, 11, 22, 25, 17, 10, 11, 9, 13, 14, 21),
+barbatimao = c(18, 17, 21, 15, 13, 12, 14, 16, 12, 11, 8, 22, 7, 15, 10),
+tamboril = c(14, 12, 13, 7, 12, 9, 11, 14, 12, 5, 10, 8, 9, 4, 10),
+ipe = c(21, 20, 16, 15, 16, 21, 25, 17, 14, 22, 15, 21, 20, 23, 21)) |> 
+  pivot_longer(1:4,
+               names_to="sp",
+               values_to="frutos") |> 
+  arrange(sp) |> 
+  mutate(sp=as_factor(sp),
+         local=as_factor(rep(c(rep("grandesertao",5),
+                     rep("veadeiros",5),
+                     rep("brasilia",5)),
+                   4)))
+dfrutos2
+```
+
+## Tabela
+
+```{r}
+library(ggokabeito)
+dfrutos2 |> 
+  ggplot(aes(sp,
+             frutos,
+             color=local,
+             fill=local))+
+  geom_dotplot(binaxis = "y", stackdir = "center")+
+  theme_classic()+
+  scale_okabe_ito(c("color",
+                    "fill"))
+```
+
+
+## 1. Normalidade
+### 1.1. Normalidade do fator especie
+```{r}
+dfrutos2_sp <- 
+dfrutos2 |> 
+  group_by(sp) |> 
+  group_split()
+names(dfrutos2_sp) <- 
+  dfrutos2_sp |> 
+  map_chr(~as.character(.$sp[1]))
+```
+
+```{r}
+dfrutos2_sp |> 
+  map(~shapiro.test(.$frutos))
+```
+
+
+### 1.2. Normalidade do fator local
+Neste caso, precisamos testar a normalidade com os dados de media de 
+producao em cada local, para isso criamos um comando com essa condicao:
+shapiro.test dos valores de quantidade quando o local seja igual a x. 
+```{r}
+dfrutos2_local <- 
+dfrutos2 |> 
+  group_by(local) |> 
+  group_split()
+names(dfrutos2_local) <- 
+  dfrutos2_local |> 
+  map_chr(~as.character(.$local[1]))
+```
+
+```{r}
+dfrutos2_local |> 
+  map(~shapiro.test(.$frutos))
+```
+
+
+
+## 2. Homocedasticidade
+levene.test(variavel dependente, group = variavel independente)
+
+
+# Two way ANOVA
+Neste caso, precisamos especificar que usaremos dois fatores
+Para analisar o fator especie e o fator local, utilizamos o simbolo +
+
+resultado2 <- aov(var dependente ~ fator1 + fator 2, data = tabela)
+
+Qual o resultado? A variacao na quantidade de frutos entre especies e/ou entre locais?
+
+
+## Two way ANOVa com interacao 
+Para analisar a interacao da especie com o local, utilizamos o 
+simbolo ":".
+```{r}
+#resultado3 <- aov(prod2 ~ fat2+local+fat2:local, data = frutos2)
+#summary(resultado3)
+```
+
+
+# Teste post hoc - Teste de Tukey ----
+Observamos que ha variacao entre as medias, mas quais medias
+variam entre elas? Sera que todas sao diferentes ou nao?
+```{r}
+#posth <- TukeyHSD(resultado2)
+#posth
+#plot(posth)
+```
+
+Quando a barra cruzar o zero no eixo x, significa que a diferenca
+entre esses grupos nao e significativo. 
+Se a diferencia for positiva, a media do primeiro fator e maior 
+que do segundo fator.
+
+Quais sao as medias que nao tem diferencias significativas?
