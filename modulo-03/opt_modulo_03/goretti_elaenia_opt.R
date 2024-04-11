@@ -1,8 +1,8 @@
 library(tidyverse)
 
 elaenia <- 
-read_csv2("C:/R_central/bioquant-2024-01/modulo-03/medidas_elaenia_opt.CSV",
-          na=c("", "#N/D"),
+read_csv2("C:/R_central/bioquant-2024-01/modulo-03/opt_modulo_03/medidas_elaenia_opt.CSV",
+          na=c("", "#N/D", "NA"),
           col_types=cols(especie = col_factor(),
                          sexoesp = col_factor(),
                          comptotbico = col_double(),
