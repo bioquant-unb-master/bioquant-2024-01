@@ -186,14 +186,21 @@ dfrutos2_local |>
 
 
 ## 2. Homocedasticidade
-levene.test(variavel dependente, group = variavel independente)
+
+```{r}
+levene.test(dfrutos2$frutos, group = dfrutos2$sp)
+levene.test(dfrutos2$frutos, group = dfrutos2$local)
+```
 
 
 # Two way ANOVA
 Neste caso, precisamos especificar que usaremos dois fatores
 Para analisar o fator especie e o fator local, utilizamos o simbolo +
 
-resultado2 <- aov(var dependente ~ fator1 + fator 2, data = tabela)
+```{r}
+resultado2 <- aov(frutos ~ sp + local, dfrutos2)
+summary(resultado2)
+```
 
 Qual o resultado? A variacao na quantidade de frutos entre especies e/ou entre locais?
 
@@ -202,8 +209,8 @@ Qual o resultado? A variacao na quantidade de frutos entre especies e/ou entre l
 Para analisar a interacao da especie com o local, utilizamos o 
 simbolo ":".
 ```{r}
-#resultado3 <- aov(prod2 ~ fat2+local+fat2:local, data = frutos2)
-#summary(resultado3)
+resultado3 <- aov(frutos ~ sp+local+sp:local, data = dfrutos2)
+summary(resultado3)
 ```
 
 
@@ -211,14 +218,13 @@ simbolo ":".
 Observamos que ha variacao entre as medias, mas quais medias
 variam entre elas? Sera que todas sao diferentes ou nao?
 ```{r}
-#posth <- TukeyHSD(resultado2)
-#posth
-#plot(posth)
+posth <- TukeyHSD(resultado2)
+posth
+plot(posth)
 ```
 
 Quando a barra cruzar o zero no eixo x, significa que a diferenca
 entre esses grupos nao e significativo. 
-Se a diferencia for positiva, a media do primeiro fator e maior 
-que do segundo fator.
+Se a diferencia for positiva, a media do primeiro fator e maior que do segundo fator.
 
 Quais sao as medias que nao tem diferencias significativas?
