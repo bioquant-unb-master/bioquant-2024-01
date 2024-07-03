@@ -1,6 +1,6 @@
 
 
-####### Aula Regressão Linear (preparado por Vivian e Waira)
+####### Aula Regressão Linear (preparado por Vivian, Waira, e Pedro)
 
 # Regressão Linear
 # Quanto que a variável y varia em relação a variavel x
