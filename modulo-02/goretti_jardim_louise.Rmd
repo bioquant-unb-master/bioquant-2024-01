@@ -1,11 +1,10 @@
 ---
 title: "Visualização de dados de temperatura e umidade relativa do Jardim Louise Ribeiro"
 author: "Arthur Goretti"
-date: "2024-03-28"
 output:
-  html_document:
-    theme:
-      bootswatch: "united"
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: vignette
 ---
 
 Começo carregando o Tidyverse.
