@@ -78,7 +78,9 @@ text(80,200,"y=0.811+51.93")
 
 ## Diagnóstico completo dos resíduos
 par(mfrow=c(2,2))
-plot(regr)
+plot(regr) 
+#o que olhamos nos 4 plot, olha a vairancia dos reciduos, o 1 mostra a homocedasticidade.
+#2. mostra a normalidade
 
 # Valores estimados de acordo com o melhor ajuste
 fitted(regr)
@@ -86,3 +88,19 @@ fitted(regr)
 residuals(regr)
 l=data.frame(a=400)
 predict(regr,l,interval="confidence")
+
+#EXERCICIO PESO TEMPERATURA MAMIFEROS
+temperatura<-c(18.3,18.5,18.3,19,18.4,18.7,18.9,19.1,18.2,18)
+peso<-c(7.3,7.4,7.3,6.9,7.2,6.9,6.8,6.5,7,7.4)
+cor.test(temperatura, peso) #tem que ser primeiro x e depois y
+plot(temperatura, peso)
+#correlacao negativa forte!
+reg<-lm(peso~temperatura) #aqui eh y~X!! ao contrario!
+reg
+abline(reg,cex= 6, col="forest green", lty=1, lwd= 3)
+par(mfrow=c(2,2))
+plot(reg)
+newdata<-data.frame(temperatura=c(20,21,22))
+newdata
+predict(reg, newdata, interval="predict") #funcao de predicao 
+#quanto maior a predicao maior valor de incerteza upr
