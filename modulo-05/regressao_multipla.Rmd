@@ -22,6 +22,8 @@ ind <- dados$Industria; ind
 temp <- dados$Temp; temp
 pluv <- dados$Pluviosidad; pluv
 vento <- dados$Vento; vento
+pop <- dados$Populacao; pop
+dias_umid <- dados$Dias_umid; dias_umid
 ```
 ```{r}
 plot(polu ~ ind, data = dados) # visualizacao grafica das minhas variaveis duas a duas
