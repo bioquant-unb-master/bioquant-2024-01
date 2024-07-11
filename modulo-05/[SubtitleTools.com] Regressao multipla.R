@@ -68,59 +68,12 @@ install.packages("car")
 library(car)
 
 ?ncvTest # outra forma de se testar a homocedasticidade (homogeneidade) de variancias
-Test(lm(polu ~ ind + pluv + temp)) # teste de homogeneidade das variancias
+ncvTest(lm(polu ~ ind + pluv + temp)) # teste de homogeneidade das variancias
 ncvTest(lm(polu ~ ind + temp))
 ncvTest(lm(polu ~ ind + temp + pluv + vento))
 
 
-#_________________________________________________________________________________________________
-
-# Exemplo 2: Morcegos parasitados
-
-
-dados1 <- read.table("Parasitados.txt", header=T)
-
-parasitas <- dados1$Parasitas; parasitas # variavel resposta
-indiv <- dados1$Indiv; indiv
-abrigo <- dados1$Abrigo; abrigo
-sexo <- dados1$Sexo; sexo
-
-# neste caso, como as variaveis Abrigo e Sexo sao categoricas, temos de transforma-las em
-# binarias, sendo 0= Fechado e 1 = Aberto (no caso de Abrigo) e 0 = Macho e 1 = Femea
-# (no caso de Sexo)
-
-
-# criando modelos
-
-summary(lm(parasitas ~ indiv + abrigo + sexo)) # modelo 1: PARASITAS ~ INDIV + ABRIGO + SEXO
-
-summary(lm(parasitas ~ abrigo + sexo)) # modelo 2: PARASITAS ~ ABRIGO + SEXO
-
-
-# verificando o quanto nosso modelo explica o processo em estudo (r2 e r2 ajustado),
-# a partir dos resultados encontrados acima!
-
-# Validando os pressupostos a partir dos RESIDUOS!
-
-res1 <- rstandard(lm(parasitas ~ indiv + abrigo + sexo)); res1 # residuos do modelo 1
-res2 <- rstandard(lm(polu ~ abrigo + sexo)); res2 # residuos do modelo 2
-
-
-shapiro.test(res1) #teste de normalidade dos residuos
-shapiro.test(res2)
-
-ncvTest(lm(parasitas ~ indiv + abrigo + sexo)) # teste de homogeneidade das variancias
-ncvTest(lm(polu ~ abrigo + sexo))
-
-# Neste caso, por ser uma situacao hipotetica com dados fantasiados (criados),
-# ambos os modelos nao conseguiram encontrar efeito das variaveis analisadas. 
-# Contudo, em situacoes reais, é possivel que tais variaveis exercam alguma influencia 
-# na variavel resposta em questao. 
-
-
-#______________________________________________________________________________________________
-
-# Exercicio para casa: Com base no arquivo "Ambiental.txt" disponivel no Moodle e o script da aula, 
+# Exercicio para casa: Com base no arquivo "Ambiental.txt" disponivel no Teams e o script da aula, 
 # como apoio, respondam ao exercicio abaixo.
 
 
