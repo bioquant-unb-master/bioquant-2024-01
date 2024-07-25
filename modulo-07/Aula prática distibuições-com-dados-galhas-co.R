@@ -137,4 +137,4 @@ ps <- rpois(folhas, lambda = mean(folhas))
 plot(ps)
 plot(folhas)
 gf2 <- goodfit(folhas,type = "poisson",method = "MinChisq")
-summary(g
+summary(gf2)
