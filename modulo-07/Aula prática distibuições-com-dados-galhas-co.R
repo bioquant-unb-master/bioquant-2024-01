@@ -1,4 +1,4 @@
-# Distribuicao e comparacao de amostras
+# Distribuicao e comparacao de amostras texto Pedro Galvino, Waira, Camilla
 
 # 1. Distribuicoes
 
@@ -137,4 +137,4 @@ ps <- rpois(folhas, lambda = mean(folhas))
 plot(ps)
 plot(folhas)
 gf2 <- goodfit(folhas,type = "poisson",method = "MinChisq")
-summary(g
+summary(gf2)

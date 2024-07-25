@@ -1,0 +1,44 @@
+# Carregando os pacotes necessários
+library(cluster)
+library(ggplot2)
+
+# Criando um conjunto de dados fictício com diferentes tipos de variáveis
+dados <- data.frame(
+  variavel1 = c(10, 8, 6, 4, 2),
+  variavel2 = c("A", "B", "A", "B", "C"),
+  variavel3 = factor(c("Sim", "Não", "Sim", "Não", "Sim"))
+)
+
+# Convertendo as variáveis para o tipo apropriado
+dados$variavel2 <- as.factor(dados$variavel2)
+dados$variavel3 <- as.factor(dados$variavel3)
+
+# Calculando a matriz de dissimilaridade usando a distância de Gower
+dissimilaridade <- daisy(dados)
+
+# Realizando a clusterização com o algoritmo Ward
+clusters <- agnes(dissimilaridade, method = "ward")
+
+# Definindo o número de clusters desejado (neste exemplo, 2 clusters)
+k <- 2
+
+# Realizando o corte do dendrograma para obter os clusters
+grupos <- cutree(clusters, k = k)
+
+# Visualizando os clusters obtidos
+ggplot(dados, aes(variavel1, variavel2, color = as.factor(grupos))) +
+  geom_point(size = 3) +
+  labs(title = "Clusterização Gower/Ward", x = "Variável 1", y = "Variável 2") +
+  theme_minimal()
+
+# Salvando os clusters obtidos em um arquivo CSV
+write.csv(grupos, file = "grupos.csv")
+
+# criando um diagrama de dispersão com os clusters obtidos
+plot(dados$variavel1, dados$variavel2, col = grupos, pch = 19, cex = 2)
+
+# Salvando o diagrama de dispersão em um arquivo PNG
+png("diagrama.png")
+
+
+#Rodando o codigo em R no terminal: Rscript cluster_R.R
