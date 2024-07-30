@@ -1,0 +1,65 @@
+---
+title: "Exercício de Regressão Múltipla"
+author: "Arthur Goretti"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: vignette
+---
+
+# Carregando o pacote e visualizando os dados
+Começo carregando os pacotes com os comandos que quero utilizar.
+```{r}
+library(tidyverse)
+library(MASS)
+```
+
+Visualizo a base de dados ecolhida.
+```{r}
+Cars93 |> 
+  head()
+```
+
+# Explorando visualmente os dados
+
+Uso o `ggplot2` para gerar alguns gráficos.
+```{r}
+Cars93 |> 
+  ggplot(aes(MPG.highway, Price))+
+  geom_point()+
+  geom_smooth(method="lm")
+
+Cars93 |> 
+  ggplot(aes(Rear.seat.room, Price))+
+  geom_point()+
+  geom_smooth(method="lm")
+```
+
+Uso a função `cor.test` para testar se as variáveis independentes sugeridas não têm correlação forte entre si. Desta forma, supomos que as premissas da regressão linear são cumpridas.
+```{r}
+cor.test(Cars93$MPG.highway, Cars93$Rear.seat.room)
+```
+
+Com um coeficiente de correlação estimado de -36,7%, assumimos que as variáveis são pouco correlacionadas.
+
+# Ajuste de modelo
+
+Montamos então um modelo em um objeto para ver os resultados da regressão
+```{r}
+modelo <- 
+  lm(Cars93$Price ~ Cars93$Rear.seat.room + Cars93$MPG.highway)
+
+modelo |> summary()
+```
+
+O percentual da variabilidade explicada pelo modelo é o Multiple R-squared: 0.32
+```{r}
+modelo |> anova()
+```
+
+Divido então a soma dos quadrados de cada grupo pela soma dos quadrados total para achar a contribuição relativa de cada grupo, encontrando:
+
+Rear.sear.room: 0.097
+
+MPG.highway: 0.223

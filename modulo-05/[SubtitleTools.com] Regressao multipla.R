@@ -1,4 +1,4 @@
-﻿
+
 ### Aula prática - Regressao Linear Multipla
 
 
