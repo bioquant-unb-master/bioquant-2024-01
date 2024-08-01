@@ -1,0 +1,2913 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="DataHora" type="string"></SimpleField>
+	<SimpleField name="Satelite" type="string"></SimpleField>
+	<SimpleField name="Pais" type="string"></SimpleField>
+	<SimpleField name="Estado" type="string"></SimpleField>
+	<SimpleField name="Municipi" type="string"></SimpleField>
+	<SimpleField name="Bioma" type="string"></SimpleField>
+	<SimpleField name="DiaSemCh" type="int"></SimpleField>
+	<SimpleField name="Precipit" type="float"></SimpleField>
+	<SimpleField name="RiscoFog" type="float"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitud" type="float"></SimpleField>
+	<SimpleField name="AreaIndu" type="string"></SimpleField>
+	<SimpleField name="FRP" type="float"></SimpleField>
+	<SimpleField name="AreaProt" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/01 17:00:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">7.1</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.663</SimpleData>
+		<SimpleData name="Longitud">-47.078</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.078,-13.663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 17:12:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.15666</SimpleData>
+		<SimpleData name="Longitud">-47.78502</SimpleData>
+		<SimpleData name="FRP">7.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.78502,-14.15666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 17:12:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.14839</SimpleData>
+		<SimpleData name="Longitud">-47.29774</SimpleData>
+		<SimpleData name="FRP">3.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.29774,-14.14839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.08</SimpleData>
+		<SimpleData name="Longitud">-47.21</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.21,-14.08</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.38</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.38,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Sao Joao D'Alianca</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">16</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.15</SimpleData>
+		<SimpleData name="Longitud">-47.45</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.45,-14.15</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Sao Joao D'Alianca</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">12</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.15</SimpleData>
+		<SimpleData name="Longitud">-47.34</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.34,-14.15</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">12</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.15</SimpleData>
+		<SimpleData name="Longitud">-47.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.3,-14.15</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.2,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.11</SimpleData>
+		<SimpleData name="Longitud">-47.34</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.34,-14.11</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14</SimpleData>
+		<SimpleData name="Longitud">-47.37</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.37,-14.0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.11</SimpleData>
+		<SimpleData name="Longitud">-47.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.3,-14.11</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.04</SimpleData>
+		<SimpleData name="Longitud">-47.21</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.21,-14.04</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.04</SimpleData>
+		<SimpleData name="Longitud">-47.46</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.46,-14.04</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">9</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.7</SimpleData>
+		<SimpleData name="Longitud">-47.15</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.15,-13.7</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.08</SimpleData>
+		<SimpleData name="Longitud">-47.23</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.23,-14.08</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.04</SimpleData>
+		<SimpleData name="Longitud">-47.35</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.35,-14.04</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14</SimpleData>
+		<SimpleData name="Longitud">-47.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.2,-14.0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14</SimpleData>
+		<SimpleData name="Longitud">-47.26</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.26,-14.0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.26</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.26,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.44</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.44,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14</SimpleData>
+		<SimpleData name="Longitud">-47.44</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.44,-14.0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/02 20:00:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">11</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-14.04</SimpleData>
+		<SimpleData name="Longitud">-47.24</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.24,-14.04</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/03 04:20:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.14563</SimpleData>
+		<SimpleData name="Longitud">-47.30026</SimpleData>
+		<SimpleData name="FRP">0.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30026,-14.14563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/03 04:20:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.14506</SimpleData>
+		<SimpleData name="Longitud">-47.30379</SimpleData>
+		<SimpleData name="FRP">1.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30379,-14.14506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/03 16:50:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">11.1</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-14.131</SimpleData>
+		<SimpleData name="Longitud">-47.439</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.439,-14.131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/03 16:53:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.12663</SimpleData>
+		<SimpleData name="Longitud">-47.4415</SimpleData>
+		<SimpleData name="FRP">4.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.4415,-14.12663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/03 16:53:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.12171</SimpleData>
+		<SimpleData name="Longitud">-47.4338</SimpleData>
+		<SimpleData name="FRP">5.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.4338,-14.12171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 13:02:59</SimpleData>
+		<SimpleData name="Satelite">TERRA-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.94</SimpleData>
+		<SimpleData name="Longitud">-47.17167</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.17167,-13.94</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 13:02:59</SimpleData>
+		<SimpleData name="Satelite">TERRA-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.95</SimpleData>
+		<SimpleData name="Longitud">-47.17333</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.17333,-13.95</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 13:05:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.926</SimpleData>
+		<SimpleData name="Longitud">-47.15</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.15,-13.926</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 13:05:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.959</SimpleData>
+		<SimpleData name="Longitud">-47.174</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.174,-13.959</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 13:05:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.969</SimpleData>
+		<SimpleData name="Longitud">-47.195</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.195,-13.969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.97327</SimpleData>
+		<SimpleData name="Longitud">-47.20211</SimpleData>
+		<SimpleData name="FRP">4.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.20211,-13.97327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.97381</SimpleData>
+		<SimpleData name="Longitud">-47.20582</SimpleData>
+		<SimpleData name="FRP">2.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.20582,-13.97381</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.96986</SimpleData>
+		<SimpleData name="Longitud">-47.20254</SimpleData>
+		<SimpleData name="FRP">4.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.20254,-13.96986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91206</SimpleData>
+		<SimpleData name="Longitud">-47.13918</SimpleData>
+		<SimpleData name="FRP">16.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13918,-13.91206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91261</SimpleData>
+		<SimpleData name="Longitud">-47.14291</SimpleData>
+		<SimpleData name="FRP">16.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.14291,-13.91261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9076</SimpleData>
+		<SimpleData name="Longitud">-47.13233</SimpleData>
+		<SimpleData name="FRP">18.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13233,-13.9076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90814</SimpleData>
+		<SimpleData name="Longitud">-47.136</SimpleData>
+		<SimpleData name="FRP">18.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.136,-13.90814</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.97113</SimpleData>
+		<SimpleData name="Longitud">-47.18744</SimpleData>
+		<SimpleData name="FRP">11.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.18744,-13.97113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.97058</SimpleData>
+		<SimpleData name="Longitud">-47.18373</SimpleData>
+		<SimpleData name="FRP">11.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.18373,-13.97058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.96444</SimpleData>
+		<SimpleData name="Longitud">-47.16552</SimpleData>
+		<SimpleData name="FRP">7.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16552,-13.96444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.96717</SimpleData>
+		<SimpleData name="Longitud">-47.18415</SimpleData>
+		<SimpleData name="FRP">11.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.18415,-13.96717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.96772</SimpleData>
+		<SimpleData name="Longitud">-47.18787</SimpleData>
+		<SimpleData name="FRP">11.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.18787,-13.96772</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.96049</SimpleData>
+		<SimpleData name="Longitud">-47.16225</SimpleData>
+		<SimpleData name="FRP">8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16225,-13.96049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9514</SimpleData>
+		<SimpleData name="Longitud">-47.17124</SimpleData>
+		<SimpleData name="FRP">5.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.17124,-13.9514</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94747</SimpleData>
+		<SimpleData name="Longitud">-47.16803</SimpleData>
+		<SimpleData name="FRP">5.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16803,-13.94747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94801</SimpleData>
+		<SimpleData name="Longitud">-47.17179</SimpleData>
+		<SimpleData name="FRP">8.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.17179,-13.94801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94408</SimpleData>
+		<SimpleData name="Longitud">-47.16858</SimpleData>
+		<SimpleData name="FRP">5.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16858,-13.94408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94069</SimpleData>
+		<SimpleData name="Longitud">-47.16912</SimpleData>
+		<SimpleData name="FRP">5.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16912,-13.94069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9362</SimpleData>
+		<SimpleData name="Longitud">-47.16214</SimpleData>
+		<SimpleData name="FRP">5.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16214,-13.9362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9373</SimpleData>
+		<SimpleData name="Longitud">-47.16967</SimpleData>
+		<SimpleData name="FRP">5.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.16967,-13.9373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.92277</SimpleData>
+		<SimpleData name="Longitud">-47.14131</SimpleData>
+		<SimpleData name="FRP">12.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.14131,-13.92277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91884</SimpleData>
+		<SimpleData name="Longitud">-47.13812</SimpleData>
+		<SimpleData name="FRP">12.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13812,-13.91884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91938</SimpleData>
+		<SimpleData name="Longitud">-47.14183</SimpleData>
+		<SimpleData name="FRP">12.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.14183,-13.91938</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91492</SimpleData>
+		<SimpleData name="Longitud">-47.13496</SimpleData>
+		<SimpleData name="FRP">12.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13496,-13.91492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91545</SimpleData>
+		<SimpleData name="Longitud">-47.13865</SimpleData>
+		<SimpleData name="FRP">16.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13865,-13.91545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91599</SimpleData>
+		<SimpleData name="Longitud">-47.14238</SimpleData>
+		<SimpleData name="FRP">16.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.14238,-13.91599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.91153</SimpleData>
+		<SimpleData name="Longitud">-47.13548</SimpleData>
+		<SimpleData name="FRP">12.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13548,-13.91153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90868</SimpleData>
+		<SimpleData name="Longitud">-47.13971</SimpleData>
+		<SimpleData name="FRP">7.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13971,-13.90868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90368</SimpleData>
+		<SimpleData name="Longitud">-47.12918</SimpleData>
+		<SimpleData name="FRP">9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.12918,-13.90368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90421</SimpleData>
+		<SimpleData name="Longitud">-47.13285</SimpleData>
+		<SimpleData name="FRP">18.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13285,-13.90421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90475</SimpleData>
+		<SimpleData name="Longitud">-47.13653</SimpleData>
+		<SimpleData name="FRP">18.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.13653,-13.90475</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/04 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90029</SimpleData>
+		<SimpleData name="Longitud">-47.12967</SimpleData>
+		<SimpleData name="FRP">2.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.12967,-13.90029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9059</SimpleData>
+		<SimpleData name="Longitud">-47.30656</SimpleData>
+		<SimpleData name="FRP">6.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30656,-13.9059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9064</SimpleData>
+		<SimpleData name="Longitud">-47.31058</SimpleData>
+		<SimpleData name="FRP">6.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.31058,-13.9064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90691</SimpleData>
+		<SimpleData name="Longitud">-47.3147</SimpleData>
+		<SimpleData name="FRP">6.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.3147,-13.90691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.90148</SimpleData>
+		<SimpleData name="Longitud">-47.30713</SimpleData>
+		<SimpleData name="FRP">10.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30713,-13.90148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.89656</SimpleData>
+		<SimpleData name="Longitud">-47.30365</SimpleData>
+		<SimpleData name="FRP">10.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30365,-13.89656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:34:09</SimpleData>
+		<SimpleData name="Satelite">AQUA-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">2</SimpleData>
+		<SimpleData name="Precipit">9.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.91333</SimpleData>
+		<SimpleData name="Longitud">-47.32333</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.32333,-13.91333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:35:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">2</SimpleData>
+		<SimpleData name="Precipit">9.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.979</SimpleData>
+		<SimpleData name="Longitud">-47.201</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.201,-13.979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/05 16:35:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">2</SimpleData>
+		<SimpleData name="Precipit">9.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.977</SimpleData>
+		<SimpleData name="Longitud">-47.189</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.189,-13.977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 12:50:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-M</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.4</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.967</SimpleData>
+		<SimpleData name="Longitud">-47.207</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.207,-13.967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 12:50:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-M</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.4</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.961</SimpleData>
+		<SimpleData name="Longitud">-47.214</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.214,-13.961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.87364</SimpleData>
+		<SimpleData name="Longitud">-47.11334</SimpleData>
+		<SimpleData name="FRP">7.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11334,-13.87364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.86764</SimpleData>
+		<SimpleData name="Longitud">-47.11396</SimpleData>
+		<SimpleData name="FRP">7.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11396,-13.86764</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.85532</SimpleData>
+		<SimpleData name="Longitud">-47.11208</SimpleData>
+		<SimpleData name="FRP">15</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11208,-13.85532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.87078</SimpleData>
+		<SimpleData name="Longitud">-47.11227</SimpleData>
+		<SimpleData name="FRP">6.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11227,-13.87078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.87122</SimpleData>
+		<SimpleData name="Longitud">-47.11611</SimpleData>
+		<SimpleData name="FRP">6.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11611,-13.87122</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.85249</SimpleData>
+		<SimpleData name="Longitud">-47.11128</SimpleData>
+		<SimpleData name="FRP">10.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11128,-13.85249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 15:57:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.85292</SimpleData>
+		<SimpleData name="Longitud">-47.11515</SimpleData>
+		<SimpleData name="FRP">8.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11515,-13.85292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:20:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">4.6</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.871</SimpleData>
+		<SimpleData name="Longitud">-47.116</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.116,-13.871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:20:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.4</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.968</SimpleData>
+		<SimpleData name="Longitud">-47.213</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.213,-13.968</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:20:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">10.4</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.961</SimpleData>
+		<SimpleData name="Longitud">-47.221</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.221,-13.961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:37:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95708</SimpleData>
+		<SimpleData name="Longitud">-47.21885</SimpleData>
+		<SimpleData name="FRP">6.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.21885,-13.95708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:37:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.04891</SimpleData>
+		<SimpleData name="Longitud">-47.5182</SimpleData>
+		<SimpleData name="FRP">8.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.5182,-14.04891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:37:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.04954</SimpleData>
+		<SimpleData name="Longitud">-47.51245</SimpleData>
+		<SimpleData name="FRP">6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51245,-14.04954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/06 17:37:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.05104</SimpleData>
+		<SimpleData name="Longitud">-47.51948</SimpleData>
+		<SimpleData name="FRP">6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51948,-14.05104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/07 13:35:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">13.9</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.841</SimpleData>
+		<SimpleData name="Longitud">-47.15</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.15,-13.841</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/07 16:25:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">11.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.927</SimpleData>
+		<SimpleData name="Longitud">-47.302</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.302,-13.927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/07 16:25:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">13.9</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.845</SimpleData>
+		<SimpleData name="Longitud">-47.159</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.159,-13.845</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/07 16:25:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">11.2</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.93</SimpleData>
+		<SimpleData name="Longitud">-47.321</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.321,-13.93</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/07 17:18:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.92166</SimpleData>
+		<SimpleData name="Longitud">-47.30968</SimpleData>
+		<SimpleData name="FRP">8.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30968,-13.92166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/08 16:59:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.00776</SimpleData>
+		<SimpleData name="Longitud">-47.52423</SimpleData>
+		<SimpleData name="FRP">2.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.52423,-14.00776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/08 16:59:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.01097</SimpleData>
+		<SimpleData name="Longitud">-47.52689</SimpleData>
+		<SimpleData name="FRP">5.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.52689,-14.01097</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/09 16:40:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.97083</SimpleData>
+		<SimpleData name="Longitud">-47.06038</SimpleData>
+		<SimpleData name="FRP">3.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.06038,-13.97083</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/11 16:03:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.66582</SimpleData>
+		<SimpleData name="Longitud">-47.0013</SimpleData>
+		<SimpleData name="FRP">3.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.0013,-13.66582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 13:55:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.8</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.889</SimpleData>
+		<SimpleData name="Longitud">-47.304</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.304,-13.889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 13:55:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.8</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.876</SimpleData>
+		<SimpleData name="Longitud">-47.302</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.302,-13.876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 13:55:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.8</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.889</SimpleData>
+		<SimpleData name="Longitud">-47.311</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.311,-13.889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 15:44:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.87953</SimpleData>
+		<SimpleData name="Longitud">-47.30784</SimpleData>
+		<SimpleData name="FRP">19.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30784,-13.87953</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 15:44:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.88023</SimpleData>
+		<SimpleData name="Longitud">-47.31522</SimpleData>
+		<SimpleData name="FRP">11.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.31522,-13.88023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 15:44:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.89582</SimpleData>
+		<SimpleData name="Longitud">-47.32197</SimpleData>
+		<SimpleData name="FRP">9.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.32197,-13.89582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 15:44:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.87969</SimpleData>
+		<SimpleData name="Longitud">-47.3088</SimpleData>
+		<SimpleData name="FRP">11.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.3088,-13.87969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 15:44:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.88048</SimpleData>
+		<SimpleData name="Longitud">-47.31655</SimpleData>
+		<SimpleData name="FRP">11.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.31655,-13.88048</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 16:40:00</SimpleData>
+		<SimpleData name="Satelite">AQUA-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">7.6</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.62667</SimpleData>
+		<SimpleData name="Longitud">-47.05167</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.05167,-13.62667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 16:45:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Teresina de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.8</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.88</SimpleData>
+		<SimpleData name="Longitud">-47.301</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.301,-13.88</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 16:45:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.8</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.903</SimpleData>
+		<SimpleData name="Longitud">-47.329</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.329,-13.903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 17:24:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.15707</SimpleData>
+		<SimpleData name="Longitud">-47.2992</SimpleData>
+		<SimpleData name="FRP">2.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.2992,-14.15707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 17:24:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.89796</SimpleData>
+		<SimpleData name="Longitud">-47.32423</SimpleData>
+		<SimpleData name="FRP">11</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.32423,-13.89796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 17:24:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.89885</SimpleData>
+		<SimpleData name="Longitud">-47.32858</SimpleData>
+		<SimpleData name="FRP">6.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.32858,-13.89885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/12 17:24:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.62668</SimpleData>
+		<SimpleData name="Longitud">-47.05125</SimpleData>
+		<SimpleData name="FRP">12</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.05125,-13.62668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 04:32:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.87186</SimpleData>
+		<SimpleData name="Longitud">-47.31341</SimpleData>
+		<SimpleData name="FRP">1.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.31341,-13.87186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 16:30:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">19.9</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.51</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 16:30:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">19.9</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.53</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.53,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 16:45:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.51</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 16:45:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.53</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.53,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95876</SimpleData>
+		<SimpleData name="Longitud">-47.50293</SimpleData>
+		<SimpleData name="FRP">9.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.50293,-13.95876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95729</SimpleData>
+		<SimpleData name="Longitud">-47.49476</SimpleData>
+		<SimpleData name="FRP">4.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.49476,-13.95729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95803</SimpleData>
+		<SimpleData name="Longitud">-47.49886</SimpleData>
+		<SimpleData name="FRP">4.8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.49886,-13.95803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95949</SimpleData>
+		<SimpleData name="Longitud">-47.50698</SimpleData>
+		<SimpleData name="FRP">9.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.50698,-13.95949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95302</SimpleData>
+		<SimpleData name="Longitud">-47.49545</SimpleData>
+		<SimpleData name="FRP">8.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.49545,-13.95302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95523</SimpleData>
+		<SimpleData name="Longitud">-47.5077</SimpleData>
+		<SimpleData name="FRP">27.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.5077,-13.95523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95024</SimpleData>
+		<SimpleData name="Longitud">-47.50442</SimpleData>
+		<SimpleData name="FRP">27.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.50442,-13.95024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94874</SimpleData>
+		<SimpleData name="Longitud">-47.49612</SimpleData>
+		<SimpleData name="FRP">8.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.49612,-13.94874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95099</SimpleData>
+		<SimpleData name="Longitud">-47.50854</SimpleData>
+		<SimpleData name="FRP">27.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.50854,-13.95099</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95174</SimpleData>
+		<SimpleData name="Longitud">-47.51269</SimpleData>
+		<SimpleData name="FRP">14.2</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51269,-13.95174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.946</SimpleData>
+		<SimpleData name="Longitud">-47.50528</SimpleData>
+		<SimpleData name="FRP">9.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.50528,-13.946</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:05:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94676</SimpleData>
+		<SimpleData name="Longitud">-47.50945</SimpleData>
+		<SimpleData name="FRP">9.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.50945,-13.94676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/13 17:30:00</SimpleData>
+		<SimpleData name="Satelite">GOES-12</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">6</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0.9</SimpleData>
+		<SimpleData name="Latitude">-13.96</SimpleData>
+		<SimpleData name="Longitud">-47.51</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51,-13.96</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/14 04:13:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.93626</SimpleData>
+		<SimpleData name="Longitud">-47.51005</SimpleData>
+		<SimpleData name="FRP">0.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.51005,-13.93626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/14 04:13:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.1312</SimpleData>
+		<SimpleData name="Longitud">-47.29408</SimpleData>
+		<SimpleData name="FRP">0.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.29408,-14.1312</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/14 04:13:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.13347</SimpleData>
+		<SimpleData name="Longitud">-47.30209</SimpleData>
+		<SimpleData name="FRP">1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.30209,-14.13347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/14 04:13:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.13471</SimpleData>
+		<SimpleData name="Longitud">-47.29465</SimpleData>
+		<SimpleData name="FRP">1.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.29465,-14.13471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/15 16:28:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.96918</SimpleData>
+		<SimpleData name="Longitud">-47.11576</SimpleData>
+		<SimpleData name="FRP">3.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11576,-13.96918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/15 16:28:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.944</SimpleData>
+		<SimpleData name="Longitud">-47.09321</SimpleData>
+		<SimpleData name="FRP">6.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.09321,-13.944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/20 16:34:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.95343</SimpleData>
+		<SimpleData name="Longitud">-47.46683</SimpleData>
+		<SimpleData name="FRP">10</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.46683,-13.95343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/21 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.03094</SimpleData>
+		<SimpleData name="Longitud">-47.42848</SimpleData>
+		<SimpleData name="FRP">14.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.42848,-14.03094</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/21 16:15:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso De Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.03204</SimpleData>
+		<SimpleData name="Longitud">-47.43735</SimpleData>
+		<SimpleData name="FRP">6.5</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.43735,-14.03204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/21 16:35:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">3</SimpleData>
+		<SimpleData name="Precipit">43.9</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-14.043</SimpleData>
+		<SimpleData name="Longitud">-47.446</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.446,-14.043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/21 16:35:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Alto Paraiso de Goias</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">3</SimpleData>
+		<SimpleData name="Precipit">43.9</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-14.043</SimpleData>
+		<SimpleData name="Longitud">-47.435</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.435,-14.043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/25 16:40:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.70004</SimpleData>
+		<SimpleData name="Longitud">-47.10707</SimpleData>
+		<SimpleData name="FRP">4.4</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.10707,-13.70004</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/25 16:40:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.69672</SimpleData>
+		<SimpleData name="Longitud">-47.10759</SimpleData>
+		<SimpleData name="FRP">7.3</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.10759,-13.69672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/25 16:40:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.94985</SimpleData>
+		<SimpleData name="Longitud">-47.06258</SimpleData>
+		<SimpleData name="FRP">2.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.06258,-13.94985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/25 19:50:45</SimpleData>
+		<SimpleData name="Satelite">NOAA-15</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">4</SimpleData>
+		<SimpleData name="Precipit">32.8</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.945</SimpleData>
+		<SimpleData name="Longitud">-47.415</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.415,-13.945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/25 19:50:45</SimpleData>
+		<SimpleData name="Satelite">NOAA-15</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">4</SimpleData>
+		<SimpleData name="Precipit">32.8</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.94667</SimpleData>
+		<SimpleData name="Longitud">-47.42167</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.42167,-13.94667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/26 16:21:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.66211</SimpleData>
+		<SimpleData name="Longitud">-46.99833</SimpleData>
+		<SimpleData name="FRP">4.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-46.99833,-13.66211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/27 16:02:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.9031</SimpleData>
+		<SimpleData name="Longitud">-47.3861</SimpleData>
+		<SimpleData name="FRP">4.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.3861,-13.9031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/27 16:02:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.89755</SimpleData>
+		<SimpleData name="Longitud">-47.38658</SimpleData>
+		<SimpleData name="FRP">4.1</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.38658,-13.89755</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/28 16:39:49</SimpleData>
+		<SimpleData name="Satelite">AQUA-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.78</SimpleData>
+		<SimpleData name="Longitud">-47.095</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.095,-13.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/28 16:39:49</SimpleData>
+		<SimpleData name="Satelite">AQUA-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.78</SimpleData>
+		<SimpleData name="Longitud">-47.105</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.105,-13.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/28 16:45:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.776</SimpleData>
+		<SimpleData name="Longitud">-47.102</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.102,-13.776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/28 16:45:00</SimpleData>
+		<SimpleData name="Satelite">AQUA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">17.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.774</SimpleData>
+		<SimpleData name="Longitud">-47.093</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.093,-13.774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/28 17:24:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.77655</SimpleData>
+		<SimpleData name="Longitud">-47.10378</SimpleData>
+		<SimpleData name="FRP">8</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.10378,-13.77655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/28 17:24:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.77797</SimpleData>
+		<SimpleData name="Longitud">-47.09312</SimpleData>
+		<SimpleData name="FRP">9.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.09312,-13.77797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/29 04:32:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.77172</SimpleData>
+		<SimpleData name="Longitud">-47.1103</SimpleData>
+		<SimpleData name="FRP">0.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.1103,-13.77172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/29 04:32:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.77519</SimpleData>
+		<SimpleData name="Longitud">-47.11091</SimpleData>
+		<SimpleData name="FRP">0.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.11091,-13.77519</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/29 04:32:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.77927</SimpleData>
+		<SimpleData name="Longitud">-47.10743</SimpleData>
+		<SimpleData name="FRP">0.7</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.10743,-13.77927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/30 04:13:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-13.7829</SimpleData>
+		<SimpleData name="Longitud">-47.10006</SimpleData>
+		<SimpleData name="FRP">1.6</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.10006,-13.7829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/30 13:40:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">15.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.809</SimpleData>
+		<SimpleData name="Longitud">-47.072</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.072,-13.809</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/30 13:40:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">15.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.799</SimpleData>
+		<SimpleData name="Longitud">-47.071</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.071,-13.799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/30 13:40:00</SimpleData>
+		<SimpleData name="Satelite">TERRA_M-T</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Nova Roma</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">15.3</SimpleData>
+		<SimpleData name="RiscoFog">1</SimpleData>
+		<SimpleData name="Latitude">-13.819</SimpleData>
+		<SimpleData name="Longitud">-47</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.0,-13.819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="DataHora">2012/06/30 16:46:00</SimpleData>
+		<SimpleData name="Satelite">NPP_375</SimpleData>
+		<SimpleData name="Pais">Brasil</SimpleData>
+		<SimpleData name="Estado">Goias</SimpleData>
+		<SimpleData name="Municipi">Cavalcante</SimpleData>
+		<SimpleData name="Bioma">Cerrado</SimpleData>
+		<SimpleData name="DiaSemCh">0</SimpleData>
+		<SimpleData name="Precipit">0</SimpleData>
+		<SimpleData name="RiscoFog">0</SimpleData>
+		<SimpleData name="Latitude">-14.04124</SimpleData>
+		<SimpleData name="Longitud">-47.59753</SimpleData>
+		<SimpleData name="FRP">0.9</SimpleData>
+		<SimpleData name="AreaProt">UCF - PARQUE NACIONAL DA CHAPADA DOS VEADEIROS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-47.59753,-14.04124</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
