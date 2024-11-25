@@ -1,0 +1,51 @@
+---
+title: "Exercício opcional do módulo 3: influência do sexo no comprimento das asas em *Elaenia*"
+author: "Arthur Goretti"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: vignette
+---
+# Importação de dados
+Começo carregando o Tidyverse e utilizado a função `read_csv2`, do pacote `readr`, para importar a planilha com as medidas.
+```{r carregando tidyverse}
+library(tidyverse)
+```
+É importante notar que o pacote e a função utilizados são parte do `tidyverse` e compatíveis com o restante deste. Desta forma, quando importo com estas definições, o objeto resultante é uma `tibble`, formato de `dataframe` próprio do `tidyverse`. O argumento `col_types`, da função `read_csv2`, serve para especificar o formato dos dados importados em cada coluna. Ademais, a diferença entre as funções `read_csv2` e `read_csv` é que a primeira trabalha com CSVs em formato europeu (usado no Brasil), com vírgula sinalizando partes decimais e ponto-e-vírgula separando valores, e a segunda trabalha com CSVs em formato americano, com ponto indicando parte decimal e valores separados por vírgula.
+```{r importando os dados, paged.print=TRUE}
+elaenia <- 
+read_csv2("C:/R_central/bioquant-2024-01/modulo-03/opt_modulo_03/medidas_elaenia_opt.CSV",
+          na=c("", "#N/D"),
+          col_types=cols(especie = col_factor(),
+                         sexoesp = col_factor(),
+                         comptotbico = col_double(),
+                         altbico = col_double(),
+                         largbico = col_double(),
+                         compasa = col_double(),
+                         comptmet = col_double(),
+                         compcauda = col_double(),
+                         sexo1m2f3na = col_factor(),
+                         compbico = col_double()))
+
+elaenia |> str()
+elaenia
+```
+
+# Tratamento dos dados
+Uso as funções do pacote `dplyr` para tratamento de dados.
+```{r tratamento de dados}
+
+```
+
+# Teste T
+
+```{r teste t}
+
+```
+
+# Figura
+
+```{r figura}
+
+```
+
